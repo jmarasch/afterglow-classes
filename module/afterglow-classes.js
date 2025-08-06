@@ -27,7 +27,7 @@ Hooks.once('init', async function () {
         types: ['Player'],
         label: 'ChildOfGia.ActorSheetChildOfGia'
     })
-    Actors.registerSheet('Afterglow-cultist', CultistSheets.ActorSheetCultist ,{
+    Actors.registerSheet('Afterglow-cultist', CultistSheets.ActorSheetCultist, {
         types: ['Player'],
         label: 'Cultist.ActorSheetCultist'
     })
@@ -39,9 +39,9 @@ Hooks.once('init', async function () {
         types: ['Player'],
         label: 'Patchrunner.ActorSheetPatchrunner'
     })
-    Actors.registerSheet('Afterglow-whisperborn', WhisperBornSheets.ActorSheetWhisperBorn, {
+    Actors.registerSheet('Afterglow-whisperborn', WhisperBornSheets.ActorSheetWhisperborn, {
         types: ['Player'],
-        label: 'WhisperBorn.ActorSheetWhisperBorn'
+        label: 'Whisperborn.ActorSheetWhisperborn'
     })
     Actors.registerSheet('Afterglow-freezy', FreezySheets.ActorSheetFreezy, {
         types: ['Player'],

@@ -45,7 +45,7 @@ class ActorSheetPatchrunner extends DCCActorSheet {
             template: 'modules/afterglow-classes/templates/actor-partial-patchrunner.html'
         },
         spells: {
-            template: 'modules/afterglow-classes/templates/actor-partial-patchrunner-programs.html'
+            template: 'modules/afterglow-classes/templates/actor-partial-wetware-programs.html'
         },
         skills: {
             template: 'systems/dcc/templates/actor-partial-skills.html'

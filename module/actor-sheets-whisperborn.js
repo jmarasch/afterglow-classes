@@ -13,7 +13,8 @@ class ActorSheetWhisperborn extends DCCActorSheet {
     static DEFAULT_OPTIONS = {
         classes: ['dcc', 'sheet', 'actor', 'pc', 'whisperborn'],
         position: {
-            height: 635
+            height: 635,
+            width: 583
         }
     }
 
@@ -22,7 +23,7 @@ class ActorSheetWhisperborn extends DCCActorSheet {
         sheet: {
             tabs: [
                 { id: 'whisperborn', group: 'sheet', label: 'Afterglow.Whisperborn' },
-                { id: 'spells', group: 'sheet', label: 'Afterglow.Mutations' },
+                { id: 'spells', group: 'sheet', label: 'Whisperborn.VisionSpells' },
                 { id: 'skills', group: 'sheet', label: 'DCC.Skills' }
             ],
             initial: 'character'
@@ -44,7 +45,7 @@ class ActorSheetWhisperborn extends DCCActorSheet {
             template: 'modules/afterglow-classes/templates/actor-partial-whisperborn.html'
         },
         spells: {
-            template: 'modules/afterglow-classes/templates/actor-partial-mutations.html'
+            template: 'modules/afterglow-classes/templates/actor-partial-vision-spells.html'
         },
         skills: {
             template: 'systems/dcc/templates/actor-partial-skills.html'
@@ -57,7 +58,6 @@ class ActorSheetWhisperborn extends DCCActorSheet {
     /** @override */
     async _prepareContext(options) {
         const context = await super._prepareContext(options)
-
         if (context.system.details.sheetClass !== 'Whisperborn') {
             this.actor.update({
                 'system.class.className': game.i18n.localize('Afterglow.Whisperborn'),

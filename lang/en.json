@@ -1,6 +1,6 @@
 {
   "Afterglow.Boomshade": "Boomshade",
-  "Afterglow.ChildOfGia": "Child Of Gia",
+  "Afterglow.ChildOfGia": "Child of Gia",
   "Afterglow.Cultist": "Cultist",
   "Afterglow.Forged": "Forged",
   "Afterglow.Freezy": "Freezy",
@@ -26,25 +26,26 @@
   "Afterglow.ProgramCheck": "Wetware Program Check",
   "Afterglow.MaxTechLevel": "Max Tech level",
 
-  "Afterglow.PatchrunnerPrograms": "Patchrunner Programs",
+  "Afterglow.WetwarePrograms": "Wetware Programs",
 
-  "Afterglow.PatchrunnerProgramsTabHelp": "Drag and drop program items into this list.",
+  "Afterglow.WetwareProgramsTabHelp": "Drag and drop wetware program items into this list.",
+  "Afterglow.VisionSpellsTabHelp": "Drag and drop vision spell items into this list.",
   
   "human.AIRecognition": "Close resemblance to the ancients adds to AI recognition",
   
   "Boomshade.ActorSheetBoomshade": "Boomshade",
   "Boomshade.BoomshadeAbilities": "Boomshade Abilities",
 
-  "ChildOfGia.ActorSheetChildOfGia": "Child Of Gia",
-  "ChildOfGia.GiaAbilities": "Gia Abilities",
+  "ChildOfGia.ActorSheetChildOfGia": "Child of Gia",
+  "ChildOfGia.ChildOfGiaAbilities": "Child of Gia Abilities",
 
-  "Cultist.ActorSheetCultist": "Child Of Gia",
+  "Cultist.ActorSheetCultist": "Cultist",
   "Cultist.CultistAbilities": "Cultist Abilities",
 
   "Forged.PrimaryModule": "Primary Module",
   "Forged.SecondaryModule": "Secondary Module",
   "Forged.ActorSheetForged": "Forged",
-  "Forged.forgedAbilities": "Forged Abilities",
+  "Forged.ForgedAbilities": "Forged Abilities",
 
   "Freezy.ActorSheetFreezy": "Freezy",
   "Freezy.SubClass": "Sub Class",
@@ -59,7 +60,7 @@
 
   "Whisperborn.ActorSheetWhisperborn": "Whisperborn",
   "Whisperborn.WhisperbornAbilities": "Whisperborn Abilities",
-  "Whisperborn.VisionSpells": "Vision Spells",
-  "Whisperborn.VisionSpellCheck": "Vision Spell Check"
+  "Whisperborn.VisionSpells": "Visions",
+  "Whisperborn.VisionSpellCheck": "Vision Check"
 
 }
