@@ -1,0 +1,31 @@
+a[data-tab='boomshade']::before {
+    content: '\f3ed';
+}
+
+a[data-tab='childofgia']::before {
+    content: '\f3ed';
+}
+
+a[data-tab='cultist']::before {
+    content: '\f3ed';
+}
+
+a[data-tab='forged']::before {
+    content: '\f3ed';
+}
+
+a[data-tab='freezy']::before {
+    content: '\f3ed';
+}
+
+a[data-tab='patchrunner']::before {
+    content: '\f3ed';
+}
+
+a[data-tab='whisperborn']::before {
+    content: '\f3ed';
+}
+
+#system\.class\.archaicAlignment\.value {
+    height: 25px;
+}

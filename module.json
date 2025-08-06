@@ -1,0 +1,46 @@
+{
+  "id": "afterglow-classes",
+  "title": "Afterglow Sheets",
+  "description": "Sheets for Afterglow in FoundryVTT!",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "authors": [
+    {
+      "name": "Jakob Marasch"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dcc",
+        "type": "system"
+      }
+    ]
+  },
+  "esmodules": [
+    "module/afterglow-classes.js"
+  ],
+  "flags": {
+    "hotReload": {
+      "extensions": ["js", "css", "html", "json"]
+    }
+  },
+  "styles": [
+    "styles/afterglow.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "url": "https://github.com/jmarasch/afterglow-classes",
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-dcc/afterglow-classes/main/module.json",
+  "download": "https://github.com/foundryvtt-dcc/afterglow-classes/archive/main.zip",
+  "license": "LICENSE.txt"
+}

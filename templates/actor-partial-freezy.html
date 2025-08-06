@@ -1,0 +1,73 @@
+<section class="tab freezy {{tabs.freezy.cssClass}}" data-tab="{{tabs.freezy.id}}" data-group="{{tabs.freezy.group}}">
+    {{!-- Hidden inputs to reflect the sheet class and force standard crit range --}}
+    <input type="hidden" id="system.details.sheetClass" name="system.details.sheetClass" value="Freezy" data-dtype="String"/>
+    <input type="hidden" id="system.details.critRange" name="system.details.critRange" value="20" data-dtype="Number"/>
+    
+    <div class="grid-container">
+        <div class="grid-col-span-12 dark-border">
+            <div class="box-title">{{localize "Freezy.FreezyAbilities"}}</div>
+                <div class="grid-tpl-max-auto grid-col-span-2" style="align-items: center;">
+                    <label for="system.class.freezySubClass">
+                        {{localize "Freezy.SubClass"}}
+                    </label>
+                    <input type="text" id="system.class.freezySubClass"
+                           name="system.class.freezySubClass" value="{{system.class.freezySubClass}}"
+                           data-dtype="String"/>
+                </div>
+                <div class="grid-tpl-two grid-row-gap-8 p-5">
+                <label for="system.class.moralCode.value">
+                        {{localize "Afterglow.MoralCode"}}
+                    </label>
+                    <input type="text" id="system.class.moralCode.value" name="system.class.moralCode.value"
+                           value="{{system.class.moralCode.value}}" data-dtype="String"/>
+                </div>
+                <div class="grid-tpl-max-25" data-skill="aiRecognition">
+                    <label class="skill-check rollable" for="system.skills.aiRecognition.value"
+                           data-action="rollSkillCheck" data-drag="true" data-drag-action="skill">
+                        {{localize "Afterglow.AIRecognition"}}
+                    </label>
+                    <input type="text" id="system.skills.aiRecognition.value"
+                           name="system.skills.aiRecognition.value" value="{{system.skills.aiRecognition.value}}"
+                           data-dtype="String"/>
+                </div>
+                <div class="grid-tpl-max-25" data-skill="maxTechLevel">
+                    <label for="system.skills.maxTechLevel.value">
+                        {{localize "Afterglow.MaxTechLevel"}}
+                    </label>
+                    <input type="text" id="system.skills.maxTechLevel.value" name="system.skills.maxTechLevel.value"
+                           value="{{system.skills.maxTechLevel.value}}" data-dtype="String"/>
+                </div>
+
+                <div class="grid-tpl-max-25" data-skill="artifactCheck">
+                    <label class="skill-check rollable" for="system.skills.artifactCheck.value"
+                           data-action="rollSkillCheck" data-drag="true" data-drag-action="skill">
+                        {{localize "Afterglow.ArtifactCheck"}}</label>
+                    <input type="text" id="system.skills.artifactCheck.value"
+                           name="system.skills.artifactCheck.value" value="{{system.skills.artifactCheck.value}}"
+                           data-dtype="String"/>
+                </div>
+
+                <!-- <ul class="class-note flexcol">
+                    <li>
+                        {{localize "Afterglow.NaturalAttack"}}
+                        <ul>
+                            <li>{{localize "Freezy.NaturalAttackDesc"}}</li>
+                        </ul>
+                    </li>
+                    <li>
+                        {{localize "Freezy.FragrancePheromones"}}
+                        <ul>
+                            <li>{{localize "Freezy.FragrancePheromonesDesc"}}</li>
+                        </ul>
+                    </li>
+                    <li>
+                        {{localize "Freezy.CantSeeTheForestForTheTrees"}}
+                        <ul>
+                            <li>{{localize "Freezy.CantSeeTheForestForTheTreesDesc"}}</li>
+                        </ul>
+                    </li>
+                </ul> -->
+            </div>
+        </div>
+    </div>
+</section>

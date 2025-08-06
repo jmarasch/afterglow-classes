@@ -1,0 +1,65 @@
+{
+  "Afterglow.Boomshade": "Boomshade",
+  "Afterglow.ChildOfGia": "Child Of Gia",
+  "Afterglow.Cultist": "Cultist",
+  "Afterglow.Forged": "Forged",
+  "Afterglow.Freezy": "Freezy",
+  "Afterglow.FreezySubType": "Freezy Sub Type",
+  "Afterglow.Patchrunner": "Patchrunner",
+  "Afterglow.Whisperborn": "Whisper-Born",
+  
+  "Afterglow.MoralCode": "MoralCode",
+  "Afterglow.AI": "AI",
+  "Afterglow.AIRecognition": "AI Recognition",
+  "Afterglow.ArtifactCheck": "Artifact Check",
+  "Afterglow.Artifacts": "Artifacts",
+  "Afterglow.Luck": "Luck",
+
+  "Afterglow.GiaAbilities": "Gia Abilities",
+  
+  "Afterglow.MutationCheck": "Mutation Check",
+  "Afterglow.MutationName": "Mutation Name",
+  "Afterglow.Mutations": "Mutations",
+  "Afterglow.MutationsTabHelp": "Drag and drop mutation items into this list.",
+  "Afterglow.NaturalAttack": "Natural Attack",
+
+  "Afterglow.ProgramCheck": "Wetware Program Check",
+  "Afterglow.MaxTechLevel": "Max Tech level",
+
+  "Afterglow.PatchrunnerPrograms": "Patchrunner Programs",
+
+  "Afterglow.PatchrunnerProgramsTabHelp": "Drag and drop program items into this list.",
+  
+  "human.AIRecognition": "Close resemblance to the ancients adds to AI recognition",
+  
+  "Boomshade.ActorSheetBoomshade": "Boomshade",
+  "Boomshade.BoomshadeAbilities": "Boomshade Abilities",
+
+  "ChildOfGia.ActorSheetChildOfGia": "Child Of Gia",
+  "ChildOfGia.GiaAbilities": "Gia Abilities",
+
+  "Cultist.ActorSheetCultist": "Child Of Gia",
+  "Cultist.CultistAbilities": "Cultist Abilities",
+
+  "Forged.PrimaryModule": "Primary Module",
+  "Forged.SecondaryModule": "Secondary Module",
+  "Forged.ActorSheetForged": "Forged",
+  "Forged.forgedAbilities": "Forged Abilities",
+
+  "Freezy.ActorSheetFreezy": "Freezy",
+  "Freezy.SubClass": "Sub Class",
+
+  "Patchrunner.ActorSheetPatchrunner": "Patchrunner",
+  "Patchrunner.AIPatron": "AI Patron",
+  "Patchrunner.Programs": "Programs",
+  "Patchrunner.PatchrunnerAbilities": "Patchrunner Abilities",
+  "Patchrunner.Whispercoil": "Whispercoil",
+  "Patchrunner.WhispercoilPersonality": "Whispercoil Personality",
+  "Patchrunner.WhispercoilHindrence": "Whispercoil Hindrence",
+
+  "Whisperborn.ActorSheetWhisperborn": "Whisperborn",
+  "Whisperborn.WhisperbornAbilities": "Whisperborn Abilities",
+  "Whisperborn.VisionSpells": "Vision Spells",
+  "Whisperborn.VisionSpellCheck": "Vision Spell Check"
+
+}
